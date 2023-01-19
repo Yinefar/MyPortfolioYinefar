@@ -1,5 +1,93 @@
+
 body {
-background: #000;
-color:  #fff;
-  
+    background-color: #f3a8c2;
+    padding: 70px 40px 0px 40px; /*un padding es como el reloj en sentido horario*/
+    
+}
+.gr{
+    text-align: right;
+    font-size:40pt; 
+}
+
+li{
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    padding: 15px 10px;
+}
+#reg {
+   background-color: #f6d1de;
+   font-size:x-large;
+   color: #426D5E;
+   text-align:center;
+   font-family:monospace;
+   padding: 15px 10px;
+}
+
+.guy {
+    font-size:x-large;
+    font-family: monospace;
+    color: #426D5E;
+    text-align:center;
+    background-color: #f6d1de;
+    padding: 15px 10px;
+}
+
+.list {
+    font-size:x-large;
+    font-family: monospace;
+    color: #426D5E;
+    background-color: #f6d1de;
+    display: inline-flex;
+    padding: 15px 20px;
+    width: 100px;
+}
+.list:hover{
+    background-color: #85E0D6;
+    color: #f74fd0;
+}
+
+.wk {
+    font-size:x-large;
+    font-family: monospace;
+    color: #426D5E;
+    background-color: #f6d1de;
+    display: inline-flex;
+    padding: 15px 20px;
+    width: 500px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #a2a0a1;
+    font-size: 20px;
+    color: #ffff; 
+    right: 0px; 
+}
+
+.menu:hover {
+    background-color: #85E0D6;
+    
+}
+
+
+#foot{
+    font-style: italic;
+}
+#helado {
+    text-align: center;
+}
+#foot:hover{
+   color: #f74fd0;
+}
+li:hover{
+    /*text-decoration: underline;*/
+    color: #a2a0a1;
+
 }
