@@ -26,6 +26,7 @@ ul {
    text-align:center;
    font-family:monospace;
    padding: 15px 10px;
+   border: row;
 }
 
 .guy {
