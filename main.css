@@ -1,16 +1,47 @@
 
 body {
-    background-color: #f3a8c2;
+    /* background-color: #f3a8c2; */
+    /* background-color: bisque; */
+    background-color: rgb(240, 180, 95);
     padding: 70px 40px 0px 40px; /*un padding es como el reloj en sentido horario*/
-    
+    /* background-image: url(./img/fondoPort.png); */
 }
-.gr{
+/* .gr{
     text-align: right;
     font-size:40pt; 
+} */
+
+
+.titu {
+    margin-top: 10%;
+    display: flex; /*para desplazar horizontalmente los divs hijos*/
+    margin-left: 20%;
+   
+}
+
+
+.hola {
+    margin-right: 10%;
+    color: #392f0d;
+}
+
+#perfil {
+    width:300px;    
+    height:300px;
+    border-radius: 50%;
+
+   
+} 
+
+
+.works {
+    align-items: center;
+   
 }
 
 li{
     padding: 10px;
+
 }
 
 ul {
@@ -18,15 +49,16 @@ ul {
     display: flex;
     font-weight: bold;
     padding: 15px 10px;
-}
+}   
 #reg {
-   background-color: #f6d1de;
+   background-color: #364e77;
    font-size:x-large;
-   color: #426D5E;
+   color: #e7f2ee;
    text-align:center;
    font-family:monospace;
    padding: 15px 10px;
    border: row;
+   border-radius: 30px;
 }
 
 .guy {
@@ -36,6 +68,11 @@ ul {
     text-align:center;
     background-color: #f6d1de;
     padding: 15px 10px;
+}
+
+
+.titu {
+    text-align: center;
 }
 
 .list {
@@ -48,7 +85,7 @@ ul {
     width: 100px;
 }
 .list:hover{
-    background-color: #85E0D6;
+    background-color: #182624;
     color: #f74fd0;
 }
 
@@ -60,21 +97,24 @@ ul {
     display: inline-flex;
     padding: 15px 20px;
     width: 500px;
-    margin: 5px;
+    margin: 20px 20px;
+  
 }
 
 .menu {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #a2a0a1;
+    background-color: #364e77;
     font-size: 20px;
     color: #ffff; 
     right: 0px; 
+    cursor: pointer;
+   
 }
 
 .menu:hover {
-    background-color: #85E0D6;
+    background-color: #ca3f11;
     
 }
 
@@ -90,7 +130,7 @@ ul {
 }
 li:hover{
     /*text-decoration: underline;*/
-    color: #a2a0a1;
+    color: #364e77;
 
 }
 
