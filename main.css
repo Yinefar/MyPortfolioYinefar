@@ -4,18 +4,13 @@ body {
     /* background-color: bisque; */
     background-color: rgb(240, 180, 95);
     padding: 70px 40px 0px 40px; /*un padding es como el reloj en sentido horario*/
-
 }
-
-
 
 .titu {
     margin-top: 10%;
     display: flex; /*para desplazar horizontalmente los divs hijos*/
-    margin-left: 20%;
-   
+    margin-left: 20%;   
 }
-
 
 .hola {
     margin-right: 10%;
@@ -26,19 +21,16 @@ body {
     width:300px;    
     height:300px;
     border-radius: 50%;
-
-   
 } 
 
 
 .works {
-    align-items: center;
-   
+    align-items: center;   
 }
+
 
 li{
     padding: 10px;
-
 }
 
 ul {
@@ -94,8 +86,7 @@ ul {
     display: inline-flex;
     padding: 15px 20px;
     width: 500px;
-    margin: 20px 20px;
-  
+    margin: 20px 20px; 
 }
 
 .menu {
@@ -107,12 +98,10 @@ ul {
     color: #ffff; 
     right: 0px; 
     cursor: pointer;
-   
 }
 
 .menu:hover {
-    background-color: #ca3f11;
-    
+    background-color: #ca3f11;  
 }
 
 
