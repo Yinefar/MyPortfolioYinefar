@@ -4,13 +4,20 @@ body {
     /* background-color: bisque; */
     background-color: rgb(240, 180, 95);
     padding: 70px 40px 0px 40px; /*un padding es como el reloj en sentido horario*/
+    /* background-image: url(./img/fondoPort.png); */
 }
+/* .gr{
+    text-align: right;
+    font-size:40pt; 
+} */
 
 .titu {
     margin-top: 10%;
     display: flex; /*para desplazar horizontalmente los divs hijos*/
-    margin-left: 20%;   
+    margin-left: 20%;
+   
 }
+
 
 .hola {
     margin-right: 10%;
@@ -21,16 +28,19 @@ body {
     width:300px;    
     height:300px;
     border-radius: 50%;
+
+   
 } 
 
 
 .works {
-    align-items: center;   
+    align-items: center;
+   
 }
-
 
 li{
     padding: 10px;
+
 }
 
 ul {
@@ -53,9 +63,9 @@ ul {
 .guy {
     font-size:x-large;
     font-family: monospace;
-    color: #426D5E;
+    color:  #364e77;
     text-align:center;
-    background-color: #f6d1de;
+    background-color:  #e98361c2;
     padding: 15px 10px;
 }
 
@@ -67,26 +77,46 @@ ul {
 .list {
     font-size:x-large;
     font-family: monospace;
-    color: #426D5E;
-    background-color: #f6d1de;
+    color: #364e77;
+    background-color:  #ca3f11;
     display: inline-flex;
     padding: 15px 20px;
     width: 100px;
+    margin-right: 40px;
+    border-radius: 50px;
+    justify-content: center; /*para centrar el texto de un div*/
 }
 .list:hover{
-    background-color: #182624;
-    color: #f74fd0;
+    background-color: #364e77;
+    color:  #d64d20;
+}
+
+.skills{
+    margin-left: 15%;
 }
 
 .wk {
     font-size:x-large;
     font-family: monospace;
-    color: #426D5E;
-    background-color: #f6d1de;
+    color: #364e77;
+    background-color: #d64d20;
     display: inline-flex;
     padding: 15px 20px;
     width: 500px;
-    margin: 20px 20px; 
+    margin: 20px 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.works :hover {
+    color:  #d64d20;
+    background-color: #364e77;
+}
+
+
+
+h1{ 
+    color: #392f0d;
 }
 
 .menu {
@@ -98,10 +128,11 @@ ul {
     color: #ffff; 
     right: 0px; 
     cursor: pointer;
+   
 }
 
 .menu:hover {
-    background-color: #ca3f11;  
+    background-color: #ca3f11;
 }
 
 
@@ -127,4 +158,3 @@ li:hover{
 //ejemplos de diseño UX
 //Tecnologias de java centrarse 
 // paleta de colores de programador 
-
