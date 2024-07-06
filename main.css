@@ -14,8 +14,7 @@ body {
 .titu {
     margin-top: 10%;
     display: flex; /*para desplazar horizontalmente los divs hijos*/
-    margin-left: 20%;
-   
+    margin-left: 20%;  
 }
 
 
@@ -27,20 +26,16 @@ body {
 #perfil {
     width:300px;    
     height:300px;
-    border-radius: 50%;
-
-   
+    border-radius: 50%;  
 } 
 
 
 .works {
-    align-items: center;
-   
+    align-items: center; 
 }
 
 li{
     padding: 10px;
-
 }
 
 ul {
@@ -48,7 +43,8 @@ ul {
     display: flex;
     font-weight: bold;
     padding: 15px 10px;
-}   
+} 
+
 #reg {
    background-color: #364e77;
    font-size:x-large;
@@ -86,6 +82,7 @@ ul {
     border-radius: 50px;
     justify-content: center; /*para centrar el texto de un div*/
 }
+
 .list:hover{
     background-color: #364e77;
     color:  #d64d20;
@@ -128,7 +125,6 @@ h1{
     color: #ffff; 
     right: 0px; 
     cursor: pointer;
-   
 }
 
 .menu:hover {
@@ -139,12 +135,16 @@ h1{
 #foot{
     font-style: italic;
 }
+
 #helado {
     text-align: center;
 }
+
 #foot:hover{
    color: #f74fd0;
 }
+
+
 li:hover{
     /*text-decoration: underline;*/
     color: #364e77;
