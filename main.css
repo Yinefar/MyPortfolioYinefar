@@ -81,6 +81,7 @@ ul {
     margin-right: 40px;
     border-radius: 50px;
     justify-content: center; /*para centrar el texto de un div*/
+    cursor: pointer;
 }
 
 .list:hover{
