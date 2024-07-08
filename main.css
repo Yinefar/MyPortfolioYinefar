@@ -71,6 +71,7 @@ ul {
 }
 
 .list {
+    cursor: pointer;
     font-size:x-large;
     font-family: monospace;
     color: #364e77;
@@ -81,7 +82,6 @@ ul {
     margin-right: 40px;
     border-radius: 50px;
     justify-content: center; /*para centrar el texto de un div*/
-    cursor: pointer;
 }
 
 .list:hover{
