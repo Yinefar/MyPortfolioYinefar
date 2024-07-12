@@ -7,7 +7,7 @@ let indice = 0;
     if (indice < texto.length) {
         elemento.innerHTML += texto.charAt(indice); 
         indice++;
-        setTimeout(mostrarTexto, 100); 
+        setTimeout(mostrarTexto, 100); /*delay de 100 */
     } else {
         setTimeout(() => {
             elemento.innerHTML =""; 
