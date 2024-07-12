@@ -6,6 +6,8 @@ body {
     padding: 70px 40px 0px 40px; /*un padding es como el reloj en sentido horario*/
     /* background-image: url(./img/fondoPort.png); */
 }
+/*buscar un fondo apropiado para colocar o usar una función de js para que caigan elementos de programación como una cascada*/
+
 /* .gr{
     text-align: right;
     font-size:40pt; 
