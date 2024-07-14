@@ -43,7 +43,7 @@ li{
 ul {
     list-style: none;
     display: flex;
-/*     font-weight: bold; */
+    font-weight: bold;
     padding: 15px 25px;
     margin-left: 32%; /*centrar*/ 
     gap: 20px; /*separar entre li*/ 
