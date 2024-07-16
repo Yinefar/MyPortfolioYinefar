@@ -7,17 +7,20 @@
     <title>Yinefar Yiniz</title>
     <link rel="icon" href="yinizRem.ico">
     <link href="main.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
-
 <body>
-    <header id="webpage">  <!-- Tengo que agregar un juego con mi llamita debajo de la presentación -->
+
+
+    <header id="webpage">
         <div class="menu">
         <ul>
-            <li> mySkills</li>
-            <li> myRecentWorks</li>
-            <li> aboutMe</li>
+            <li> <a  href="#skill"> My Skills </a> </li>
+            <li> <a href="#work"> Recent Works </a></li>
+            <li> <a href="#yo"> Me</a></li>
         </ul>
         </div>
+    
     </header>
 
     <div class="titu">
@@ -35,6 +38,7 @@
   
     <br>
     <div id="reg">
+    
            <h3 id="presentation"> </h3> 
     </div>
    
@@ -42,9 +46,9 @@
     <br>
     <br>
     
-    <h1> mySkills</h1>
+    <h1 id="skill"> mySkills</h1>
     <div class="skills">
-
+        
         <div class="list">
             <h4>Java</h4>
         </div>
@@ -67,7 +71,18 @@
     <br>
     <br>
 
-    <h1>myRecentWorks</h1>
+    <h1 id="work">myRecentWorks</h1>
+
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('yin.png');"></div>   
+            <div class="swiper-slide" style="background-image: url('yin.png');"></div>
+            <div class="swiper-slide" style="background-image: url('yin.png');"></div>
+            <div class="swiper-slide" style="background-image: url('yin.png');"></div>
+        </div>
+    </div>
+
     <div class="works">
         <div class="wk">
             <h4> { Sistema de matrícula de la Institución Educativa Andrés Avelino Cáceres }</h4>
@@ -87,10 +102,7 @@
     </div>
    
     <br>
-    <br>
-    <br>
-    
-    <h1>aboutMe</h1>
+    <h1 id="yo">aboutMe</h1>
     <div class="guy">
        <p> 
         I am 28 years old. I am studying Computación e Informática at Cibertec. 
@@ -98,12 +110,8 @@
         and python. In other hand, I am interested on cybersecurity too.  This is amazing!
            
        </p>
-    </div>
 
-    <br>
-    <br>
-    <br>
-    
+    </div>
     <h1> anotherProjects  </h1>
      <div class="guy">
        <p> 
@@ -113,15 +121,27 @@
 
     </div>
 
-    <br>
-    <br>
 
+    <div class="tech">
+
+        <div class="logi"> 
+            <img src="./java.png" alt="" class="imz">
+           <img src="./git.png" alt=""  class="imz">
+           <img src="./boots.png" alt="" class="imz">
+           <img src="./js.png" alt="" class="imz">
+
+        </div>
+
+    </div>
+
+    
+    
     <div id="helado">
         <h4 id="foot"> Created by Yinefar Yiniz</h4>
         <h3 >🍦</h3>
     </div>
 
-    <!-- ojo colocar footer apropiado--> 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./script.js"></script>
 </html>
