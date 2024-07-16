@@ -7,7 +7,7 @@ let indice = 0;
     if (indice < texto.length) {
         elemento.innerHTML += texto.charAt(indice); 
         indice++;
-        setTimeout(mostrarTexto, 100); /*delay de 100 */
+        setTimeout(mostrarTexto, 100); 
     } else {
         setTimeout(() => {
             elemento.innerHTML =""; 
@@ -18,3 +18,23 @@ let indice = 0;
     }
  }
  mostrarTexto();
+
+
+ var swiper = new Swiper(".swiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 3,
+    speed: 600,
+    autoplay: {
+        delay: 2000,  
+    },
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 10,
+        modifier: 1,
+        slideShadows: true, 
+    },
+    loop: true,
+});
